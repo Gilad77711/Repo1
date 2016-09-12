@@ -7,7 +7,7 @@ I also assigned the names of the features to an object named "f".
 Then i merged the data into an object i called "my_data" and merged the features names into it.
 Then i created a different data set called "mean_and_sd" containing only the mead and sd variables from "my_data" with "subject_id" and "activity_id".
 At step 3 i renamed the activity factors in "mean_and_sd" according to the activity names from the web site.
-Finally, i callculated the mean for each activity of each variable, then the mean for each subject of each variable, merged them together and exported it to csv file.
+Finally, i callculated the mean for each activity of each variable, then the mean for each subject of each variable, merged them together and exported it to txt file.
 #Variable names:
 
 mean(): Mean value
