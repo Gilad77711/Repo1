@@ -11,4 +11,4 @@ the code does this:
 5. Extracting only the required variables out of the 563 variables (the means and sds) into a new data set calles "mean_and_sd".
 6. Reanaming the activities in the new data set.
 7. Calaculating the required averages
-8. Write output data to a CSV file (which i uploaded to the repo as well)
+8. Write output data to a txt file (which i uploaded to the repo as well)
