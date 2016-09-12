@@ -1,0 +1,37 @@
+# Code Book
+This file contains the details of my work and indicates all the variables:
+# My work
+note: The detailed steps are in the r file.
+First, i downloaded and unzipped the files in R, and assigned them to objects- "X_train","y_train" and ect.
+I also assigned the names of the features to an object named "f".
+Then i merged the data into an object i called "my_data" and merged the features names into it.
+Then i created a different data set called "mean_and_sd" containing only the mead and sd variables from "my_data" with "subject_id" and "activity_id".
+At step 3 i renamed the activity factors in "mean_and_sd" according to the activity names from the web site.
+Finally, i callculated the mean for each activity of each variable, then the mean for each subject of each variable, merged them together and exported it to csv file.
+#Variable names:
+
+mean(): Mean value
+std(): Standard deviation
+mad(): Median absolute deviation 
+max(): Largest value in array
+min(): Smallest value in array
+sma(): Signal magnitude area
+energy(): Energy measure. Sum of the squares divided by the number of values. 
+iqr(): Interquartile range 
+entropy(): Signal entropy
+arCoeff(): Autorregresion coefficients with Burg order equal to 4
+correlation(): correlation coefficient between two signals
+maxInds(): index of the frequency component with largest magnitude
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+skewness(): skewness of the frequency domain signal 
+kurtosis(): kurtosis of the frequency domain signal 
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+angle(): Angle between to vectors.
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
